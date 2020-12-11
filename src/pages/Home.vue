@@ -1,17 +1,45 @@
 <template>
-  <transition>
-    <div>
-      <Card
-        :weatherProp="weather"
-        :areaProp="area"
-        @fetchLocation="
-          () => {
-            dataFetcher(true);
-          }
-        "
-      />
-    </div>
-  </transition>
+  <div>
+    <v-row>
+      <v-col cols="4">
+        <div class="ad-container">
+          <Adsense
+            data-ad-client="ca-pub-8932458145899908"
+            data-ad-slot="1234567890"
+            data-ad-format="auto"
+            :data-full-width-responsive="true"
+          >
+          </Adsense>
+        </div>
+      </v-col>
+      <v-col cols="4">
+        <transition>
+          <div>
+            <Card
+              :weatherProp="weather"
+              :areaProp="area"
+              @fetchLocation="
+                () => {
+                  dataFetcher(true);
+                }
+              "
+            />
+          </div>
+        </transition>
+      </v-col>
+      <v-col cols="4">
+        <div class="ad-container">
+          <Adsense
+            data-ad-client="ca-pub-8932458145899908"
+            data-ad-slot="1234567890"
+            data-ad-format="auto"
+            :data-full-width-responsive="true"
+          >
+          </Adsense>
+        </div>
+      </v-col>
+    </v-row>
+  </div>
 </template>
 <script>
 import Card from "../components/Card";

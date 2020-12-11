@@ -4,8 +4,13 @@ import vuetify from "./plugins/vuetify";
 import router from "./router/index.js";
 import store from "./store/index.js";
 import "./registerServiceWorker";
+import Ads from "vue-google-adsense";
 
 Vue.config.productionTip = false;
+Vue.use(require("vue-script2"));
+Vue.use(Ads.Adsense);
+Vue.use(Ads.InArticleAdsense);
+Vue.use(Ads.InFeedAdsense);
 
 new Vue({
   vuetify,
