@@ -1,6 +1,6 @@
 # weather-vue-cli
 *test itelic*
-[![Alt text for your video](https://img.youtube.com/vi/fTWk1lzjTUA/0.jpg)](https://youtu.be/fTWk1lzjTUA)
+[![Alt text for your video](https://img.youtube.com/vi/wat4SlyJSHs/0.jpg)](https://www.youtube.com/watch?v=wat4SlyJSHs)
 
 ## Project setup
 ```
