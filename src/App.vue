@@ -19,7 +19,9 @@
 
     <v-main>
       <transition name="slide">
-        <router-view />
+        <v-container>
+          <router-view />
+        </v-container>
       </transition>
     </v-main>
   </v-app>
