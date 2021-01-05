@@ -44,7 +44,9 @@ export default {
     }
   },
   mounted() {
-    this.dataFetcher(true);
+    setTimeout(() => {
+      this.dataFetcher(true);
+    }, 1000);
   }
 };
 </script>

@@ -31,7 +31,7 @@
 export default {
   name: "App",
   methods: {
-    theme(data) {
+    theme() {
       if (this.$vuetify.theme.isDark == false) {
         this.$vuetify.theme.isDark = true;
         return;
@@ -39,7 +39,6 @@ export default {
       if (this.$vuetify.theme.isDark == true) {
         this.$vuetify.theme.isDark = false;
       }
-      console.log(data);
     }
   }
 };

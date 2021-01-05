@@ -54,8 +54,8 @@
             {{ weatherProp.humidity.units }}</v-col
           >
         </v-row>
-        <div class=" mb-2">
-          <v-btn @click="getLocation" color="accent">
+        <div class=" mt-2 mb-2">
+          <v-btn outlined text @click="getLocation" color="accent">
             Refresh
           </v-btn>
         </div>
@@ -109,7 +109,6 @@ export default {
   },
   methods: {
     getLocation() {
-      console.log("get location");
       this.$emit("fetchLocation");
     }
   }
