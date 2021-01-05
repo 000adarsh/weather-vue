@@ -44,7 +44,7 @@ export default {
     }
   },
   mounted() {
-    this.dataFetcher();
+    this.dataFetcher(true);
   }
 };
 </script>
